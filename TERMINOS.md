@@ -1,135 +1,96 @@
 # Condiciones del Servicio de Críptico Club
 
-> **BORRADOR PARA VALIDACIÓN — NO PUBLICAR.** Las referencias `[REVISAR: ...]` y la lista interna deben completarse o eliminarse antes de publicar. La parte Premium solo será aplicable cuando la suscripción esté disponible.
+> **BORRADOR PARA REVISIÓN.** Documento preparado para su lectura y traducción. No sustituye la comprobación de los requisitos legales del prestador ni la verificación de las funcionalidades antes de la contratación.
 
-**Versión del borrador:** 28 de octubre de 2026  
-**Publicación prevista:** versiones en español e inglés mediante GitHub Pages (`criptico-legal`), accesibles según el idioma seleccionado en la Activity. **[PENDIENTE: redactar y revisar traducción inglesa y verificar URLs y enlaces; este borrador no está publicado]**.
-**Aplicación:** Críptico Club, Discord Activity  
-**Marca:** Zerep Games (marca de proyecto; no implica sociedad mercantil).
+**Versión de revisión:** 28 de octubre de 2026
+**Servicio:** Críptico Club, actividad integrada en Discord
+**Idioma:** español · [English](../en/terms/)
+**Política de Privacidad:** [Consultar](../privacidad/)
 
-## 1. Prestador del servicio
+## 1. Titular y contacto
 
-Críptico Club es un proyecto ofrecido por **Antonio Pérez Serrano, persona física**, bajo la marca comercial **Zerep Games** (que no constituye una sociedad). Está previsto comercializar Premium de manera independiente, pero **no se ha confirmado aún la formalización del alta como trabajador autónomo ni los demás requisitos necesarios para comenzar a cobrar**. **Dirección facilitada para identificación:** Calle Licenciado Cascales, Murcia (España). **[PENDIENTE: completar número o identificación suficiente y código postal, y comprobar que constituye un domicilio o establecimiento válido a efectos del artículo 10 LSSI]**. El correo electrónico de contacto es **zerep.a.p.s@gmail.com**. Para consultas de soporte técnico, incidencias, Premium o reclamaciones, utiliza el asunto **"Support CripticoClub"**. **[PENDIENTE DE REVISIÓN LEGAL ANTES DE PUBLICAR: comprobar la suficiencia de la dirección facilitada y los restantes datos de identificación y fiscales exigibles, incluido NIF cuando proceda.]** **[PENDIENTE ANTES DE ACTIVAR PREMIUM: comprobar y realizar, en los plazos legalmente exigidos, el alta censal ante la Agencia Tributaria (modelo 036) y el alta en el RETA de la Seguridad Social cuando corresponda por actividad habitual, también en caso de pluriactividad; revisar el contrato laboral para descartar exclusividad o concurrencia desleal, las obligaciones fiscales y de consumo, la identificación exigible por el artículo 10 LSSI y quién figura como comerciante en Discord. No publicar datos personales adicionales sin revisión y autorización del titular.]**
+Críptico Club es ofrecido por **Antonio Pérez Serrano**, persona física, bajo la denominación comercial **Zerep Games**, que no constituye una sociedad distinta de su titular.
 
-**Zerep Games** es la denominación del proyecto, sin que por sí sola identifique a una persona jurídica.
+**Dirección facilitada por el titular, pendiente de comprobación postal:** Calle Licenciado Cascales, 2 AC, 30260, Murcia, España. La dirección y su código postal deben verificarse antes de convertir este borrador en la versión contractual definitiva.
 
-**[REVISAR: los demás datos exigidos por el art. 10 LSSI cuando procedan, como inscripción registral, autorización o datos de actividad regulada]**.
+**Contacto de soporte, reclamaciones y derechos relativos al servicio:** **zerep.a.p.s@gmail.com**. Se recomienda utilizar el asunto **«Support CripticoClub»**.
 
-## 2. Objeto y aceptación
+Antes del inicio de la actividad económica y de las ventas Premium se verificarán la identificación fiscal exigible y las obligaciones administrativas, fiscales y de Seguridad Social aplicables.
 
-Críptico Club es un juego integrado en Discord y ofrecido en español e inglés. Está previsto lanzar desde el inicio una modalidad gratuita y una modalidad de suscripción Premium de pago. Estas condiciones rigen su uso, sin sustituir las condiciones de Discord. **[PENDIENTE ANTES DE PUBLICAR: comprobar que ambas modalidades y la compra Premium están efectivamente disponibles desde el lanzamiento]**.
+## 2. Alcance, acceso y aceptación
 
-**Aceptación inicial (prevista):** al abrir Críptico Club por primera vez, antes de permitir jugar, la Activity solicitará una aceptación expresa de las Condiciones del Servicio vigentes, con enlaces visibles a estos Términos y a la Política de Privacidad. Se registrarán la versión aceptada, la fecha y la cuenta autenticada, en la medida necesaria para acreditar la aceptación. La Política de Privacidad deberá ponerse a disposición del usuario, sin confundir su lectura con el consentimiento a tratamientos opcionales. Los cambios que legalmente requieran una nueva aceptación deberán presentarse antes de continuar. El usuario también debe cumplir las condiciones de Discord y la normativa aplicable. **[PENDIENTE: implementar y probar el bloqueo de acceso inicial, aceptación autenticada y versionada, registro y tratamiento de usuarios existentes; revisión del flujo de contratación y garantías legales aplicables]**.
+Críptico Club es un juego de acertijos crípticos disponible en **español e inglés**, concebido para personas que utilicen Discord en los territorios en los que Discord permita acceder a la Activity y, por separado, contratar Premium. **No restringimos el juego a un listado cerrado de países de habla española o inglesa**, pero su disponibilidad puede variar por país, edad permitida por Discord, plataforma y normas aplicables.
 
-## 3. Acceso
+Para jugar se necesita una cuenta de Discord válida. El acceso y la utilización de Discord se rigen también por sus propias condiciones.
 
-El acceso requiere una cuenta Discord válida y el cumplimiento de sus condiciones de uso y de las normas legales aplicables. Las funcionalidades de pago pueden estar sujetas a requisitos adicionales establecidos por Discord.
+Antes de jugar, la aplicación solicita aceptar expresamente la versión vigente de estas Condiciones. Se registra la cuenta, la versión aceptada y la fecha de aceptación. Si una actualización exige nueva aceptación, se volverá a solicitar. Esta aceptación contractual **no equivale** a consentir tratamientos opcionales de datos personales.
 
-## 4. Mecánica del juego
+## 3. Reglas del juego
 
-Críptico Club publica acertijos crípticos diarios en español e inglés. Los jugadores introducen letras, comprueban soluciones, reciben pistas, mantienen rachas y obtienen XP conforme a las reglas que se muestran en la interfaz.
+Cada idioma tiene retos diarios y un historial de acertijos disponibles. El jugador puede introducir una respuesta por casillas y solicitar pistas de **definición, indicador, relleno o letra revelada**. Las respuestas erróneas y el uso de pistas pueden reducir la puntuación obtenida; los costes y límites aplicables se muestran en la interfaz.
 
-Hay clasificaciones globales y por servidor y un historial para volver a jugar. Las partidas históricas pueden jugarse en **modo práctica**, que no genera XP competitivo ni modifica la clasificación o racha. La obtención y el cálculo de puntos pueden variar según errores, pistas y condiciones anunciadas.
+El sistema registra partidas, experiencia (XP), rachas y clasificaciones **globales o por servidor**, con los períodos disponibles en la interfaz. Jugar acertijos históricos en **modo práctica** no genera XP competitivo ni altera rachas o clasificaciones.
 
-Los contenidos pueden requerir correcciones editoriales. La aplicación puede actualizar reglas técnicas para corregir fallos, evitar abusos y proteger la integridad competitiva respetando los derechos de los usuarios.
+Las reglas técnicas, el cálculo de puntos y los acertijos pueden corregirse para subsanar errores o preservar la equidad, respetando las prestaciones contractuales pagadas.
 
-## 5. Modalidad gratuita
+## 4. Modalidad gratuita y Premium
 
-El acceso básico permite jugar los retos diarios, ver tu progreso y participar en rankings. Según la configuración prevista, el acceso gratuito al historial se limita a tres días recientes y existe una cuota semanal de pistas por tipo.
+**Free** permite jugar los retos actuales, participar en las clasificaciones y consultar el historial de **los tres días anteriores disponibles**. La modalidad gratuita dispone de **cuatro usos semanales por cada tipo de pista**. La interfaz muestra el saldo correspondiente.
 
-Las características disponibles en cada momento estarán descritas en la interfaz y podrán variar para mejorar el servicio, respetando cualquier derecho contratado.
+**Premium** añade el **acceso a todo el historial publicado disponible** y elimina el límite semanal de pistas, aunque **cada pista conserva su penalización de XP**. Premium no garantiza resultados, ganancias ni una posición concreta. No se prometen temas personalizados ni otras ventajas no anunciadas.
 
-## 6. Suscripción Críptico Club Premium
+El precio de referencia de Premium es **2,99 € al mes**, mediante suscripción gestionada en Discord. El precio total, moneda, impuestos aplicables y detalles de la oferta serán los que se muestren antes de confirmar la compra en Discord. La disponibilidad de compra puede ser diferente según territorio y dispositivo.
 
-Está previsto ofrecer Premium desde el lanzamiento como suscripción individual con renovación mensual gestionada mediante Discord. Cuando esté activada y disponible para el usuario, permitirá:
+## 5. Suscripción, cancelación y reembolsos
 
-- Acceso al archivo histórico disponible.
-- Pistas sin límite semanal.
-- Conservación del coste habitual en XP al utilizar pistas.
+La suscripción se renueva según los términos comunicados en el proceso de compra de Discord. Puede gestionarse o cancelarse desde **Ajustes de Discord → Suscripciones**, en los dispositivos y condiciones admitidos por Discord. La cancelación normalmente impide la siguiente renovación y permite disfrutar del período ya pagado hasta su vencimiento, salvo que proceda otra medida conforme a las condiciones aplicables.
 
-Premium no garantiza resultados, posiciones, XP positivo o premios económicos. La suscripción incluye únicamente las ventajas anteriores cuando estén disponibles y verificadas. Cualquier otra funcionalidad futura solo se incluirá si se anuncia expresamente.
+Críptico Club **no ofrece una política voluntaria adicional de reembolso**. Ello no excluye las solicitudes que permita Discord ni los derechos de desistimiento, conformidad, reembolso u otras garantías obligatorias establecidos por la ley. [Política de reembolsos de Discord](https://support.discord.com/hc/en-us/articles/360012668071-Refund-Policy).
 
-**[PENDIENTE ANTES DE PUBLICAR: verificar en la Activity que Premium incluye acceso al historial completo y pistas sin límite semanal, manteniendo las penalizaciones normales de XP por pista; no anunciar otras ventajas todavía no implementadas]**.
+**Eliminar una cuenta de Críptico Club no cancela la suscripción ni los cobros de Discord**. El jugador debe cancelarla por separado antes de eliminar su cuenta si desea evitar renovaciones futuras.
 
-## 7. Precio y contratación
+## 6. Uso aceptable y protección del juego
 
-El precio de referencia de **Críptico Club Premium es de 2,99 € al mes** desde el lanzamiento. **El titular confirma que ya ha creado y configurado el SKU de suscripción en Discord**, aunque todavía debe comprobarse su configuración efectiva de producción y el flujo completo de contratación. El importe final, la moneda, los impuestos y las condiciones de renovación serán los mostrados de forma clara por Discord antes de confirmar la compra. **[PENDIENTE ANTES DE PUBLICAR: verificar identificación del SKU, vinculación con la Activity, precio efectivo, disponibilidad geográfica, tratamiento fiscal, permisos de compra, checkout, cancelación, reembolsos y condiciones de Discord mediante pruebas reales; no incluir aquí ningún identificador privado]**.
+Se prohíben las trampas, manipulación de puntos o clasificaciones, el acceso indebido a cuentas o datos, ataques técnicos, acoso, suplantación, automatizaciones abusivas, infracciones de derechos de terceros y vulneraciones de las normas de Discord.
 
-Críptico Club inicia la compra desde la Activity mediante el SDK de Discord; Discord y sus proveedores gestionan el cobro. El desarrollador comprueba de forma segura el derecho de acceso concedido por Discord para activar Premium.
+Zerep Games se reserva la posibilidad de adoptar **medidas proporcionadas** de protección o restricción de acceso ante infracciones graves, incluso respecto de usuarios Premium, cuando tales medidas sean técnicamente posibles y procedan conforme a la normativa aplicable. **Actualmente no existe un sistema automático de baneos** ni se garantiza que se aplique una sanción determinada. Las reclamaciones sobre decisiones de acceso pueden dirigirse al correo indicado en el apartado 1. Las medidas de seguridad no eliminan los derechos de consumo ni cancelan por sí mismas pagos realizados a Discord.
 
-El uso gratuito no crea una suscripción ni genera cobros por sí solo.
+## 7. Propuestas voluntarias de acertijos
 
-Antes de habilitar las compras, el desarrollador deberá ofrecer la información precontractual exigible sobre precio total, renovación, cancelación, pasos de contratación, corrección de errores, idioma y posibilidad de conservar el contrato, según las funcionalidades efectivas de Discord y obligaciones legales del prestador. **[REVISAR: documentación de checkout y obligaciones de consumo, art. 27 LSSI]**.
+La presentación de propuestas es voluntaria, no remunerada y **no genera XP ni premios**, aunque sean aprobadas. Para proponer un críptico debe facilitarse el enunciado, solución, explicación e información editorial solicitada, y aceptarse expresamente la licencia indicada en el apartado siguiente. El formulario admite un máximo actual de **una propuesta por día UTC y diez propuestas pendientes** por jugador; estos límites podrán ajustarse con información en la interfaz.
 
-## 8. Renovación, cancelación y reembolsos
+La revisión es editorial: se puede **aceptar, rechazar o corregir** una propuesta. Su aceptación no garantiza publicación ni fecha concreta. El jugador podrá consultar el estado disponible en la Activity; **cuando se habiliten avisos internos de aprobación se comunicará que fue aprobada, pero nunca la fecha prevista de publicación**. No se prometen mensajes privados de Discord ni notificaciones automáticas que todavía no existan.
 
-Las suscripciones se renovarán según las condiciones mostradas por Discord durante la compra y podrán gestionarse o cancelarse desde los ajustes de suscripciones de Discord.
+Para planificación editorial se prevén los siguientes criterios de conservación: las propuestas **pendientes, hasta 90 días** desde su envío; las **rechazadas, hasta 30 días** desde el rechazo; las **aprobadas todavía no publicadas, hasta 12 meses** desde su aprobación. Los textos publicados podrán mantenerse mientras exista una licencia de explotación válida. **La eliminación automática al cumplirse estos plazos todavía no está desplegada** y deberá comprobarse antes de anunciarla como funcionalidad operativa.
 
-Una cancelación ordinaria no implica necesariamente la pérdida inmediata de las ventajas: el acceso puede continuar hasta el fin del período pagado, sujeto al estado verificado de la suscripción.
+## 8. Licencia de contenidos aportados y atribución
 
-**Críptico Club no ofrece una política voluntaria adicional de cancelaciones o reembolsos**. El jugador puede cancelar la renovación de su suscripción mediante las herramientas de Discord. Las solicitudes de reembolso se tramitarán conforme a las condiciones aplicables de Discord y los derechos de desistimiento, conformidad y reembolso exigidos por la normativa imperativa. Esta cláusula no limita los derechos irrenunciables del consumidor.
+Al enviar una propuesta, el participante declara que tiene derechos suficientes sobre su contenido y concede a Antonio Pérez Serrano/Zerep Games una **licencia gratuita, no exclusiva y mundial** para recibirlo, conservarlo, revisarlo, corregirlo, adaptarlo, traducirlo y, si se selecciona, reproducirlo y comunicarlo públicamente en Críptico Club, sus archivos, páginas oficiales y redes sociales o materiales promocionales del juego. La titularidad de los derechos de autor sigue correspondiendo a su titular.
 
-**[REVISAR: comprobar en la oferta real qué entidad figura como comerciante responsable, la política aplicable y las opciones de gestión]**.
+**Duración:** para contenidos publicados, **diez (10) años desde su primera publicación**. La aceptación incluye de antemano la **prórroga por períodos sucesivos de cinco (5) años**, salvo oposición válida comunicada antes del inicio del siguiente período. El responsable intentará avisar **90 días antes** de cada renovación mediante avisos en la Activity o, cuando sea posible y permitido, mensajes privados de Discord. Si la cuenta ya no existe o no se obtiene respuesta, la prórroga previamente pactada podrá continuar **solo en la medida en que el acuerdo y la legislación aplicable lo permitan**: el silencio no se considera una nueva autorización. Puede formularse oposición por el correo de soporte previa verificación proporcionada de la autoría. La licencia no anula derechos morales ni otros derechos legales irrenunciables.
 
-## 9. Normas de uso
+**Firma:** por defecto se utiliza el **username** de Discord al enviar la propuesta, no el nombre visible del perfil. El usuario puede elegir el anonimato **antes del envío**. El nombre con el que se publique el acertijo será una **instantánea fija**, aunque el nombre en Discord cambie. Las solicitudes legalmente procedentes de rectificación o supresión se atenderán conforme a la Política de Privacidad. La eliminación de cuenta desvincula las propuestas de la identidad del jugador; las publicaciones ya difundidas fuera de Críptico Club pueden conservar copias imposibles de retirar de terceros.
 
-Los usuarios deberán actuar de forma respetuosa y no intentar:
+**Fecha editorial:** si se publica como reto diario, la propuesta se incorpora al día UTC e idioma asignados, sin divulgar anticipadamente esa fecha; puede haber correcciones o sustituciones justificadas. Una aportación publicada no se retira por mera preferencia del autor, sin perjuicio de los derechos establecidos legalmente.
 
-- Manipular puntuaciones, rankings, recompensas o cuotas de pistas.
-- Acceder a cuentas, datos o contenidos de otros usuarios sin autorización.
-- Realizar ataques, scraping o automatizaciones que comprometan el servicio.
-- Suplantar identidades, enviar propuestas ilícitas o infringir derechos de terceros.
-- Incumplir las políticas aplicables de Discord o la legislación vigente.
+## 9. Uso de inteligencia artificial en contribuciones
 
-Ante trampas, intentos de fraude, ataques, suplantación, acoso u otras infracciones, podrán aplicarse medidas proporcionadas, incluida **la suspensión o bloqueo inmediato de la cuenta en casos graves** para proteger a los demás jugadores y al servicio, incluso antes de concluir la investigación. **Las infracciones graves o reiteradas podrán dar lugar a la expulsión definitiva (baneo), incluso si el jugador tiene una suscripción Premium vigente**. El bloqueo o expulsión en Críptico Club no cancela automáticamente los cobros de una suscripción contratada mediante Discord, que deberá gestionarse por separado; tampoco elimina derechos legales de cancelación, reembolso o reclamación. La decisión será revisable posteriormente: la persona afectada podrá solicitar revisión a **zerep.a.p.s@gmail.com**, asunto **"Support CripticoClub"**, y se valorarán las alegaciones, la gravedad y la necesidad de mantener o levantar la medida conforme a la normativa aplicable. **[PENDIENTE: desarrollar registro limitado de incidencias, notificación cuando corresponda, revisión humana y procedimiento de recurso; revisar obligaciones legales de moderación aplicables]**.
+La aceptación de la licencia al enviar una propuesta incluye la **autorización contractual de uso del texto del enunciado** para análisis y asistencia editorial con inteligencia artificial y, **si en el futuro se habilita expresamente una función compatible y se verifican los derechos y garantías pertinentes, para entrenamiento o mejora de modelos de IA**. **Aceptar esta condición es obligatorio únicamente para enviar propuestas; jugar no requiere aportar obras ni aceptar una licencia de entrenamiento.** Si no se está de acuerdo, se puede seguir jugando sin enviar propuestas.
 
-## 10. Envío de propuestas
+**Actualmente el entrenamiento de modelos con contribuciones no está activado.** El proveedor previsto para asistencia editorial es OpenAI. La API de OpenAI no utiliza los datos de clientes para entrenar modelos por defecto. Antes de enviar cualquier contenido a un proveedor, Críptico Club revisará el enunciado para excluir datos personales que hayan podido incluirse dentro del texto. **No se pretende enviar identificadores de Discord, nombre del autor, solución, explicación, perfil ni otros datos de cuenta a la IA**.
 
-El jugador puede proponer voluntariamente acertijos con pista, solución, explicación y demás datos solicitados. Las propuestas se revisan antes de incorporarse al juego y **ni el envío ni la aprobación generan XP, recompensas o premios**. **Avisos editoriales (previstos):** el jugador recibirá un aviso informativo **dentro de la Activity** cuando su propuesta sea aprobada, rechazada o caduque por transcurrir 90 días pendiente. Estos avisos no implican mensajes directos por Discord ni comunicaciones promocionales. **[PENDIENTE: implementar estados y avisos de aprobación/rechazo/caducidad, evitar exponer notas internas, definir conservación mínima de eventos de notificación y compatibilizarla con el borrado de propuestas de 30 y 90 días]**. **Conservación de propuestas pendientes:** si siguen sin aprobarse ni rechazarse, se prevé suprimirlas automáticamente, junto con sus notas de moderación, **a los 90 días naturales desde el envío**. Cuando se aprueban o rechazan antes de esa fecha, dejan de estar sujetas a esta caducidad y se aplica el tratamiento de su nuevo estado. **[PENDIENTE: implementar y probar la eliminación automática y la comprobación del estado, conforme a la Política de Privacidad]**. **Conservación de propuestas rechazadas:** se prevé eliminarlas de la base de datos activa, junto con las notas de moderación asociadas, **a los 30 días naturales de su rechazo**, salvo obligación legal de conservación o supresión anterior por eliminación de cuenta. La eliminación automática y el ciclo de copias de seguridad están pendientes de implementación, según se detalla en la Política de Privacidad. **Uso opcional de IA:** Críptico Club podrá utilizar inteligencia artificial externa para apoyar la revisión editorial de las propuestas; cualquier publicación requerirá revisión humana. Si se llegase a utilizar un proveedor externo, **solo se enviaría el texto del enunciado del críptico**, sin identificadores de cuenta, nombre de usuario, avatar, respuesta ni datos del autor. Antes de cualquier envío se revisará el enunciado para evitar datos personales incluidos por el propio jugador. **Entrenamiento de IA: la autorización es opcional y está desmarcada por defecto**, mediante una casilla distinta de la licencia obligatoria. El jugador puede enviar una propuesta sin marcarla. El entrenamiento no se realizará salvo que el proveedor ofrezca esa opción y se verifiquen las licencias, la configuración, las bases jurídicas y las garantías aplicables. La mera cesión para revisión editorial no implica autorización de entrenamiento. **[PENDIENTE ANTES DE PUBLICAR: verificar condiciones reales del proveedor, autorización opcional versionada, revisión humana, cribado de datos y pruebas de no envío de identidad; actualmente no hay integración de IA ni entrenamiento activo]**.
+La autorización de explotación de una obra **no elimina derechos de protección de datos**. Si un enunciado contiene datos personales, deberán aplicarse la base jurídica y las garantías correspondientes; no se presumirá su anonimato por el simple hecho de ser un críptico.
 
-El envío de cada propuesta requerirá aceptar expresamente las condiciones de licencia de esa contribución antes de remitirla. El autor declara tener los derechos necesarios y concede al responsable de Críptico Club, bajo la marca Zerep Games, una licencia **no exclusiva y gratuita** para almacenar, evaluar, corregir editorialmente y traducir el acertijo. Si se aprueba, la licencia comprenderá su reproducción, comunicación pública y publicación **dentro de Críptico Club y en las redes sociales y campañas promocionales del propio juego**, incluidas las versiones corregidas y traducidas. **Ámbito territorial:** todo el mundo. **Duración y prórroga pactada de la licencia para contenidos publicados:** diez (10) años desde la primera publicación de la propuesta en Críptico Club. **Al aceptar expresamente esta licencia al enviar la propuesta, el autor autoriza también, desde ese momento, su prórroga automática por períodos sucesivos de cinco (5) años**, exclusivamente para las modalidades de explotación aquí identificadas, salvo que comunique su oposición antes del vencimiento del período vigente. Zerep Games intentará avisar de la próxima prórroga con una antelación de al menos noventa (90) días por los canales de contacto disponibles en la Activity o Discord, cuando técnicamente sea posible. **Si la cuenta de Discord ha dejado de existir, el autor no vuelve a acceder o no responde al aviso, la prórroga previamente pactada podrá aplicarse sin considerar el silencio como una nueva autorización**, siempre que la cláusula de renovación haya sido aceptada expresamente y resulte válida conforme a la normativa aplicable. El autor podrá oponerse a la siguiente prórroga antes de que comience, escribiendo a **zerep.a.p.s@gmail.com** con el asunto **«Support CripticoClub»**, mediante una solicitud cuya identidad y vinculación con la propuesta puedan verificarse de forma proporcionada. Una oposición comunicada válidamente impedirá la siguiente prórroga; seguirán respetándose los derechos morales, de protección de datos y demás derechos irrenunciables, así como las obligaciones legales aplicables. La renovación automática y el procedimiento de comunicación y oposición quedan pendientes de revisión jurídica y de implementación. Los usos de publicaciones promocionales preexistentes y la conservación legal necesaria se tratarán dentro del alcance de los derechos efectivamente concedidos. Las propuestas nunca publicadas se conservarán únicamente durante los plazos editoriales de esta política. Las modalidades autorizadas comprenden el almacenamiento, la reproducción digital, la comunicación pública en la Activity, páginas oficiales y redes sociales, y la adaptación editorial y traducción necesarias para esos usos. **Una propuesta aprobada no estará sujeta a retirada voluntaria por un mero cambio de opinión del autor**, sin perjuicio de sus derechos irrenunciables, de las causas legales que permitan su retirada y de las obligaciones que sean aplicables. La licencia no constituye una transferencia automática de la titularidad de los derechos de autor a Zerep Games. **Fecha del reto aceptado:** si la propuesta se aprueba y finalmente se programa como desafío diario, quedará vinculada a la fecha UTC e idioma que le asigne el calendario editorial y se conservará en el historial disponible de esa fecha mientras Críptico Club mantenga dicho historial, salvo correcciones, sustituciones editoriales justificadas, incidencias técnicas u obligaciones legales. La aceptación de una propuesta no garantiza que vaya a publicarse ni una fecha concreta. La atribución respetará la opción elegida por el autor en el formulario.
+## 10. Disponibilidad, modificaciones y responsabilidad
 
-**Autoría pública prevista:** por defecto, las propuestas aprobadas mostrarán como atribución el nombre de usuario de Discord del autor (`username`, no el nombre visible `global_name`), salvo que este seleccione expresamente la opción **«Publicar como anónimo»** antes de enviar la propuesta. Esa opción deberá mostrarse claramente en el formulario, sin publicar identificadores técnicos de Discord. La atribución podrá aparecer también en materiales promocionales cuando se utilice el críptico y deberá respetar la elección hecha por el autor. Para los crípticos atribuidos públicamente se conservará **una copia fija del `username` de Discord existente al enviar la propuesta**, independiente del identificador interno permanente del jugador. **Aunque el jugador cambie su `username` en Discord, la atribución del críptico ya publicado no cambiará automáticamente**. Los futuros mecanismos de actualización de atribución podrán incorporarse si se anuncian e implementan, sin perjuicio de rectificaciones legalmente exigibles. **La elección de publicar con `username` o como anónimo quedará fijada para cada contribución al enviarla y se mantendrá después de su publicación.** No se ofrecerá un cambio voluntario posterior de esa modalidad por simple preferencia. Esta regla no impide atender las solicitudes legalmente exigibles, incluidas las vinculadas a los derechos morales del autor y a la protección de datos personales. La opción de anonimato prevalece sobre cualquier actualización del perfil, y el borrado de una cuenta seguirá comportando la desvinculación de la atribución prevista en la Política de Privacidad. **[PENDIENTE ANTES DE PUBLICAR: implementar y probar captura verificable del `username` en el momento del envío, persistencia de atribución fija en las versiones publicadas, y selector de anonimato y la desvinculación por eliminación de cuenta; verificar la base jurídica y la información previa para atribución pública, y aplicar las garantías imperativas para los titulares de los derechos]**. Para consultas sobre autoría o retirada, escribe a **zerep.a.p.s@gmail.com** con el asunto **"Support CripticoClub"**.
+El servicio puede interrumpirse por mantenimiento, incidencias o servicios externos. Se podrán modificar contenidos y funcionalidades con comunicación adecuada cuando corresponda y sin privar injustificadamente de las prestaciones ya pagadas. La aplicación no garantiza ganar, obtener una puntuación determinada ni disponibilidad ininterrumpida.
 
-**[REVISAR ANTES DE PUBLICAR: comprobar jurídicamente la duración inicial de diez años, las prórrogas automáticas de cinco años autorizadas de antemano (incluida la falta de respuesta o cuenta inexistente), la oposición antes del vencimiento y el alcance mundial de la licencia, la concreción de modalidades de explotación y la cláusula de no retirada voluntaria conforme a los arts. 14 y 43 de la Ley de Propiedad Intelectual y demás normas imperativas; revisar asimismo la gratuidad y la capacidad jurídica para licenciar los contenidos. Identificar y evaluar las herramientas de IA que se usarán, sus condiciones y el tratamiento de datos por terceros antes de enviarles propuestas; verificar la revisión humana. Implementar aceptación expresa y documentada por cada propuesta, guardando versión del texto aceptado y fecha. La licencia de propiedad intelectual es distinta del consentimiento para tratar datos personales, cuya retirada y derechos se rigen por el RGPD.]**.
+No se enviará publicidad directa mediante mensajes del desarrollador a los jugadores. Podrán mostrarse avisos operativos dentro de la Activity.
 
-## 11. Propiedad intelectual
+Las limitaciones de responsabilidad se aplicarán únicamente cuando lo permita la ley y no afectan a derechos irrenunciables de consumidores.
 
-El código, diseño, marca y contenidos propios están protegidos por las normas de propiedad intelectual aplicables. Utilizar el servicio no concede derechos de explotación sobre ellos.
+## 11. Legislación y contacto
 
-El contenido de terceros y las aportaciones de usuarios conservan su titularidad, sin perjuicio de sus licencias. Discord y sus logotipos pertenecen a sus titulares.
+Se aplicará la legislación española en la medida permitida, sin perjuicio de las normas imperativas de consumidores y usuarios de otros territorios que correspondan. Para soporte, reclamaciones, derechos de autor o cuestiones sobre el servicio, escribe a **zerep.a.p.s@gmail.com**, asunto **«Support CripticoClub»**.
 
-## 12. Disponibilidad y cambios
-
-Puede haber interrupciones por mantenimiento, correcciones, fallos de red o servicios externos. Procuraremos comunicar las incidencias significativas cuando sea posible. **Comunicaciones:** se prevén avisos operativos e informativos únicamente dentro de la Activity, incluidos los cambios de estado de propuestas y los mensajes necesarios sobre funcionamiento o seguridad. **No se enviarán mensajes publicitarios directos a los jugadores**; cualquier práctica distinta exigiría una decisión posterior y el cumplimiento previo de las normas aplicables. **[PENDIENTE: verificar los canales de comunicación efectivos en la aplicación y los tratamientos que realice Discord de forma independiente]**.
-
-Podremos actualizar funcionalidades y reglas, sin privar injustificadamente de prestaciones pagadas durante su período contractual. Si el servicio cesa, se atenderán los derechos de los consumidores y las obligaciones aplicables respecto de suscripciones vigentes.
-
-## 13. Responsabilidad
-
-Críptico Club es una actividad de entretenimiento. No se garantiza ganar partidas ni ocupar posiciones determinadas.
-
-Las posibles limitaciones de responsabilidad solo se aplican en la medida permitida por la ley; no excluyen dolo, daños cuya responsabilidad sea imperativa ni derechos irrenunciables de consumidores.
-
-## 14. Privacidad
-
-El tratamiento de los datos necesarios para usar la Activity se describe en la **Política de Privacidad:** **[REVISAR: URL definitiva]**. El tratamiento por parte de Discord se rige asimismo por su normativa propia.
-
-## 15. Modificaciones, legislación y reclamaciones
-
-Podremos revisar estas condiciones por motivos legales o de evolución del servicio. Los cambios sustanciales se comunicarán cuando corresponda. Se aplicará la legislación española sin perjuicio de las normas obligatorias de protección de usuarios y consumidores de otras jurisdicciones que resulten competentes. **Alcance territorial previsto:** el lanzamiento se dirigirá inicialmente a **España y a otros países todavía por concretar**; no se declara disponibilidad ni comercialización global para todos los territorios. La disponibilidad de la Activity y de Premium se limitará según los países habilitados y la normativa de consumo, servicios digitales, privacidad que resulte aplicable. **[PENDIENTE ANTES DEL LANZAMIENTO: enumerar países efectivamente habilitados, verificar condiciones de Discord y requisitos locales, impuestos e idiomas de información contractual]**.
-
-Para reclamaciones, dudas o solicitudes: **zerep.a.p.s@gmail.com**, con el asunto **"Support CripticoClub"**. Las controversias se tratarán por los cauces que establezca la legislación aplicable.
-
----
-
-## Lista interna antes de publicación (eliminar de versión pública)
-
-- [ ] Prestador y correo identificados; dirección facilitada pendiente de número y código postal, y de revisión de suficiencia conforme al artículo 10 LSSI; verificar NIF y demás datos aplicables.
-- [ ] Revisar la licencia de contribuciones y el consentimiento real del formulario. Verificar el mecanismo de aceptación expresa, autenticada y versionada de los Términos al primer acceso, diferenciado de consentimientos opcionales.
-- [ ] Confirmar las reglas de juego y cuotas, avisos de propuestas sin XP ni premios, bloqueo inmediato o baneo definitivo por infracciones graves, incluso con Premium, y revisión posterior de sanciones y reclamaciones por correo.
-- [ ] El titular indica que el SKU Premium existe y está configurado: verificarlo técnicamente, junto al precio, impuestos, países, checkout, derechos de desistimiento, renovaciones y reembolsos, antes de publicar.
-- [ ] Comprobar obligaciones informativas precontractuales de Discord y del prestador.
-- [ ] Añadir enlace válido a Política de Privacidad y canal de atención real.
-- [ ] Verificar la legislación aplicable en España y los otros países que finalmente se habiliten; revisión jurídica previa a la publicación.
-- [ ] Preparar traducción al inglés si se ofrece la Activity a usuarios EN.
+Consulta asimismo la [Política de Privacidad](../privacidad/) y las condiciones aplicables de Discord.

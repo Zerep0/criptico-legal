@@ -6,6 +6,8 @@ on:
     paths:
       - "TERMINOS.md"
       - "PRIVACIDAD.md"
+      - "TERMINOS_EN.md"
+      - "PRIVACIDAD_EN.md"
       - "site/**"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
