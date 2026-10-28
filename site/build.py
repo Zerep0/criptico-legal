@@ -49,6 +49,25 @@ def page(title: str, body: str, language: str, relative_root: str) -> str:
     privacy_url = f"{relative_root}{'privacidad' if language == 'es' else 'en/privacy'}/"
     alt_url = f"{relative_root}{'index.html' if language == 'en' else 'en/index.html'}"
     alt_label = "Español" if language == "en" else "English"
+    is_terms = title in ("Terms of Service", "Condiciones del Servicio")
+    is_privacy = title in ("Privacy Policy", "Política de Privacidad")
+    if is_terms:
+        english_document_url = f"{relative_root}en/terms/"
+        spanish_document_url = f"{relative_root}terminos/"
+    elif is_privacy:
+        english_document_url = f"{relative_root}en/privacy/"
+        spanish_document_url = f"{relative_root}privacidad/"
+    else:
+        english_document_url = f"{relative_root}index.html"
+        spanish_document_url = f"{relative_root}es/"
+    language_switch = (
+        f'<div class="locale-switch" role="group" aria-label="Document language / Idioma">'
+        f'<a class="{"active" if language == "en" else ""}" href="{english_document_url}" '
+        f'lang="en" aria-current="{"page" if language == "en" else "false"}">EN</a>'
+        f'<a class="{"active" if language == "es" else ""}" href="{spanish_document_url}" '
+        f'lang="es" aria-current="{"page" if language == "es" else "false"}">ES</a>'
+        "</div>"
+    )
     return f"""<!doctype html>
 <html lang="{language}">
 <head>
@@ -65,7 +84,7 @@ def page(title: str, body: str, language: str, relative_root: str) -> str:
   <nav aria-label="{t['nav']}">
     <a href="{term_url}">{t['terms']}</a>
     <a href="{privacy_url}">{t['privacy']}</a>
-    <a href="{alt_url}" hreflang="{'es' if language == 'en' else 'en'}">{alt_label}</a>
+    {language_switch}
   </nav>
 </header>
 <main class="page">
@@ -97,25 +116,28 @@ def main() -> None:
         root = "../" * (len(dest.relative_to(DEST).parts))
         (dest / "index.html").write_text(page(title, body, lang, root), encoding="utf-8")
 
-    for lang, base, prefix in (
-        ("es", DEST, ""),
-        ("en", DEST / "en", "en/"),
-    ):
+    # The default landing page is English; Spanish is available at /es/.
+    for lang, base in (("en", DEST), ("es", DEST / "es")):
         texts = {
             "es": ("Documentación legal", "Lee los dos borradores antes de la aprobación definitiva.",
                    "Condiciones del Servicio", "Política de Privacidad"),
             "en": ("Legal documents", "Read both drafts before final approval.",
                    "Terms of Service", "Privacy Policy"),
         }[lang]
+        terms_href = "en/terms/" if lang == "en" else "../terminos/"
+        privacy_href = "en/privacy/" if lang == "en" else "../privacidad/"
         body = (
             f"<h1>{texts[0]}</h1><p>{texts[1]}</p>"
             f'<div class="tiles">'
-            f'<a class="tile" href="{"" if lang == "es" else "../"}{"terminos/" if lang == "es" else "terms/"}"><strong>{texts[2]}</strong><span>Read / Leer →</span></a>'
-            f'<a class="tile" href="{"" if lang == "es" else "../"}{"privacidad/" if lang == "es" else "privacy/"}"><strong>{texts[3]}</strong><span>Read / Leer →</span></a>'
+            f'<a class="tile" href="{terms_href}"><strong>{texts[2]}</strong><span>Read / Leer →</span></a>'
+            f'<a class="tile" href="{privacy_href}"><strong>{texts[3]}</strong><span>Read / Leer →</span></a>'
             "</div>"
         )
         base.mkdir(parents=True, exist_ok=True)
-        (base / "index.html").write_text(page(texts[0], body, lang, "../" if lang == "en" else ""), encoding="utf-8")
+        (base / "index.html").write_text(
+            page(texts[0], body, lang, "../" if lang == "es" else ""),
+            encoding="utf-8",
+        )
     print(f"Built bilingual review site: {len(DOCUMENTS)} legal pages")
 
 
