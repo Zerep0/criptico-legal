@@ -1,7 +1,5 @@
 # Críptico Club Privacy Policy
 
-> **DRAFT FOR REVIEW.** This policy records product decisions and describes identifiable functionality; processes not yet deployed are expressly identified. Postal information and provider agreements must be verified before final production approval.
-
 **Review version:** October 28, 2026  
 **Service:** Críptico Club — Discord Activity  
 **Language:** English · [Español](../../privacidad/)  
@@ -11,7 +9,7 @@
 
 The controller of personal data handled by Críptico Club is **Antonio Pérez Serrano**, acting as an individual under the trading name **Zerep Games**, which is not a separate legal entity.
 
-**Address supplied by the provider, subject to postal verification:** Calle Licenciado Cascales, 2 AC, 30260, Murcia, Spain. This postal information needs to be confirmed before it is treated as final.
+**Address supplied by the provider:** Calle Licenciado Cascales, 30260, Murcia, Spain.
 
 **Privacy requests and general contact:** **zerep.a.p.s@gmail.com** (recommended subject: **“Support CripticoClub”**).
 
@@ -30,13 +28,13 @@ The frontend's font files are self-hosted and do not require connections to Goog
 
 ## 3. Purposes and legal bases
 
-| Purpose | Proposed legal basis |
-| --- | --- |
-| Discord authentication, daily gameplay, progress, profiles, leaderboards and history | Performance of the requested service (GDPR Article 6(1)(b)). |
-| Recording acceptance of Terms and checking Premium access | Contract performance and, when relevant, compliance with legal obligations (Articles 6(1)(b), 6(1)(c)). |
-| Receiving and reviewing voluntarily submitted puzzles, editorial attribution and licenses | Performance of contribution arrangements; applicable safeguards will be assessed for public attribution of user identifiers (Article 6(1)(b), as appropriate). |
-| Service security, misuse prevention, troubleshooting and defense of legal claims | Proportionate legitimate interests (Article 6(1)(f)) unless another legal basis applies. |
-| Required tax, accounting and lawful requests from public authorities | Compliance with legal obligations, where applicable (Article 6(1)(c)). |
+| Purpose                                                                                   | Proposed legal basis                                                                                                                           |
+| ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| Discord authentication, daily gameplay, progress, profiles, leaderboards and history      | Performance of the requested service (GDPR Article 6(1)(b)).                                                                                   |
+| Recording acceptance of Terms and checking Premium access                                 | Contract performance and, when relevant, compliance with legal obligations (Articles 6(1)(b), 6(1)(c)).                                        |
+| Receiving and reviewing voluntarily submitted puzzles, editorial attribution and licenses | Performance of contribution arrangements; applicable safeguards will be assessed for public attribution of user identifiers (Article 6(1)(b)). |
+| Service security, misuse prevention, troubleshooting and defense of legal claims          | Proportionate legitimate interests (Article 6(1)(f)).                                                                                          |
+| Required tax, accounting and lawful requests from public authorities                      | Compliance with legal obligations, where applicable (Article 6(1)(c)).                                                                         |
 
 We do not use gameplay data for targeted advertising or send direct promotional messages from Zerep Games. Puzzle submission is not required to use the game.
 
@@ -79,19 +77,19 @@ Before enabling integrations involving international transfers, we will assess t
 
 ## 8. Data retention and erasure
 
-| Category | Processing and retention |
-| --- | --- |
-| Accounts, progress and gameplay | Data is retained while the account is needed to provide the service and is erased following authenticated account deletion, subject to legal duties. **Automatic erasure after 24 months of inactivity is planned but not yet implemented.** |
-| Pending submissions | **Planned editorial limit: 90 days from submission** if still pending. Automatic age-based cleanup is not yet deployed. |
-| Rejected submissions | **Planned editorial limit: 30 days after rejection**. Automatic cleanup is not yet deployed. |
-| Approved but unpublished submissions | **Planned editorial limit: up to 12 months after acceptance**. Automatic cleanup is not yet deployed. |
-| Published contributions | Content may be retained while a valid exploitation license remains in force. Account deletion disconnects proposal records from their author; separately stored published credits still require additional handling. |
-| Editorial review notes | For published submissions, a **planned period of 30 days after publication**. Notes of rejected proposals follow the relevant rejection retention rule. Automatic rotation is not yet deployed. |
-| Internal approval, rejection and expiration notices | **30 days from notification**, once notifications become available. Users may currently consult proposal status, but automatic notices are not guaranteed. |
-| Premium data | Deleting a Críptico Club account removes locally stored Premium-access records, but **does not cancel Discord's billing**. Records required by law may be retained for mandatory periods. |
-| Support and privacy requests | Target retention of **up to 12 months after closure**, unless legal duties or pending disputes justify a different retention period. |
-| Technical logs, metrics and traces | **Target rotation: 30 days**, to be verified for production hosting and aggregation systems. |
-| Backups | **Planned daily backups**, encrypted with a **maximum 30-day rotation** within the planned infrastructure. Deployment and restoration still need verification. Deleted data may remain temporarily in backups until their normal expiry. |
+| Category                                            | Processing and retention                                                                                                                                                                                                                     |
+| --------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Accounts, progress and gameplay                     | Data is retained while the account is needed to provide the service and is erased following authenticated account deletion, subject to legal duties. **Automatic erasure after 24 months of inactivity is planned but not yet implemented.** |
+| Pending submissions                                 | **Planned editorial limit: 90 days from submission** if still pending. Automatic age-based cleanup is not yet deployed.                                                                                                                      |
+| Rejected submissions                                | **Planned editorial limit: 30 days after rejection**. Automatic cleanup is not yet deployed.                                                                                                                                                 |
+| Approved but unpublished submissions                | **Planned editorial limit: up to 12 months after acceptance**. Automatic cleanup is not yet deployed.                                                                                                                                        |
+| Published contributions                             | Content may be retained while a valid exploitation license remains in force. Account deletion disconnects proposal records from their author; separately stored published credits still require additional handling.                         |
+| Editorial review notes                              | For published submissions, a **planned period of 30 days after publication**. Notes of rejected proposals follow the relevant rejection retention rule. Automatic rotation is not yet deployed.                                              |
+| Internal approval, rejection and expiration notices | **30 days from notification**, once notifications become available. Users may currently consult proposal status, but automatic notices are not guaranteed.                                                                                   |
+| Premium data                                        | Deleting a Críptico Club account removes locally stored Premium-access records, but **does not cancel Discord's billing**. Records required by law may be retained for mandatory periods.                                                    |
+| Support and privacy requests                        | Target retention of **up to 12 months after closure**, unless legal duties or pending disputes justify a different retention period.                                                                                                         |
+| Technical logs, metrics and traces                  | **Target rotation: 30 days**, to be verified for production hosting and aggregation systems.                                                                                                                                                 |
+| Backups                                             | **Planned daily backups**, encrypted with a **maximum 30-day rotation** within the planned infrastructure. Deployment and restoration still need verification. Deleted data may remain temporarily in backups until their normal expiry.     |
 
 We do not claim that an undeployed automatic erasure process is already functioning. Planned retention periods will become operational commitments once implemented and verified.
 

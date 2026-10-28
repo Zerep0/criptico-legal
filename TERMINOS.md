@@ -1,7 +1,5 @@
 # Condiciones del Servicio de Críptico Club
 
-> **BORRADOR PARA REVISIÓN.** Documento preparado para su lectura y traducción. No sustituye la comprobación de los requisitos legales del prestador ni la verificación de las funcionalidades antes de la contratación.
-
 **Versión de revisión:** 28 de octubre de 2026
 **Servicio:** Críptico Club, actividad integrada en Discord
 **Idioma:** español · [English](../en/terms/)
@@ -11,7 +9,7 @@
 
 Críptico Club es ofrecido por **Antonio Pérez Serrano**, persona física, bajo la denominación comercial **Zerep Games**, que no constituye una sociedad distinta de su titular.
 
-**Dirección facilitada por el titular, pendiente de comprobación postal:** Calle Licenciado Cascales, 2 AC, 30260, Murcia, España. La dirección y su código postal deben verificarse antes de convertir este borrador en la versión contractual definitiva.
+**Dirección facilitada por el titular:** Calle Licenciado Cascales, 30260, Murcia, España.
 
 **Contacto de soporte, reclamaciones y derechos relativos al servicio:** **zerep.a.p.s@gmail.com**. Se recomienda utilizar el asunto **«Support CripticoClub»**.
 

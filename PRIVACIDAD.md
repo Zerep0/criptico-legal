@@ -1,7 +1,5 @@
 # Política de Privacidad de Críptico Club
 
-> **BORRADOR PARA REVISIÓN.** Este documento refleja decisiones de producto y funcionalidades verificables; los procesos aún no desplegados se identifican como tales. Deben comprobarse la información del domicilio y las condiciones de los proveedores antes de su aprobación para producción.
-
 **Versión de revisión:** 28 de octubre de 2026
 **Servicio:** Críptico Club — Discord Activity
 **Idioma:** español · [English](../en/privacy/)
@@ -11,7 +9,7 @@
 
 El responsable del tratamiento de los datos gestionados por Críptico Club es **Antonio Pérez Serrano**, persona física, bajo la denominación comercial **Zerep Games**, que no constituye una sociedad independiente.
 
-**Dirección facilitada por el titular, pendiente de comprobación postal:** Calle Licenciado Cascales, 2 AC, 30260, Murcia, España. Esta identificación postal debe confirmarse antes de considerarla definitiva.
+**Dirección facilitada por el titular:** Calle Licenciado Cascales, 30260, Murcia, España.
 
 **Correo para consultas y ejercicio de derechos:** **zerep.a.p.s@gmail.com** (asunto recomendado: **«Support CripticoClub»**).
 
@@ -30,13 +28,13 @@ Las fuentes tipográficas empleadas por el frontend están alojadas con la propi
 
 ## 3. Finalidades y bases jurídicas
 
-| Finalidad | Base jurídica orientativa |
-| --- | --- |
-| Inicio de sesión, juego diario, progreso, perfil, rankings e historial | Ejecución del servicio solicitado (art. 6.1.b RGPD). |
-| Registro de aceptación de Condiciones, entrega y comprobación de ventajas Premium | Ejecución del contrato y, en su caso, cumplimiento de obligaciones legales (arts. 6.1.b y 6.1.c RGPD). |
-| Recepción y revisión de propuestas presentadas voluntariamente, gestión de firma editorial y licencia | Ejecución de las condiciones de participación; para la atribución y difusión de identificadores, se valorarán las garantías pertinentes (art. 6.1.b RGPD, según finalidad). |
-| Seguridad, prevención de abusos, diagnóstico y defensa de reclamaciones | Interés legítimo proporcionado (art. 6.1.f RGPD), salvo que resulte aplicable otra base legal. |
-| Obligaciones tributarias, contables y solicitudes de autoridades competentes | Cumplimiento de obligaciones legales (art. 6.1.c RGPD), cuando existan. |
+| Finalidad                                                                                             | Base jurídica orientativa                                                                                                                                  |
+| ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Inicio de sesión, juego diario, progreso, perfil, rankings e historial                                | Ejecución del servicio solicitado (art. 6.1.b RGPD).                                                                                                       |
+| Registro de aceptación de Condiciones, entrega y comprobación de ventajas Premium                     | Ejecución del contrato y, en su caso, cumplimiento de obligaciones legales (arts. 6.1.b y 6.1.c RGPD).                                                     |
+| Recepción y revisión de propuestas presentadas voluntariamente, gestión de firma editorial y licencia | Ejecución de las condiciones de participación; para la atribución y difusión de identificadores, se valorarán las garantías pertinentes (art. 6.1.b RGPD). |
+| Seguridad, prevención de abusos, diagnóstico y defensa de reclamaciones                               | Interés legítimo proporcionado (art. 6.1.f RGPD).                                                                                                          |
+| Obligaciones tributarias, contables y solicitudes de autoridades competentes                          | Cumplimiento de obligaciones legales (art. 6.1.c RGPD), cuando existan.                                                                                    |
 
 No utilizamos los datos de partidas para publicidad personalizada ni enviamos mensajes promocionales directos de Zerep Games. El acceso al juego no exige enviar propuestas.
 
@@ -79,19 +77,19 @@ Antes de activar integraciones que supongan transferencias internacionales se ve
 
 ## 8. Conservación y eliminación
 
-| Categoría | Tratamiento y conservación |
-| --- | --- |
-| Cuenta, progresión y partidas | Se conservan mientras se necesita la cuenta para prestar el juego y se eliminan cuando el jugador utiliza el procedimiento autenticado de borrado, salvo obligaciones legales. **La eliminación automática tras 24 meses de inactividad es un criterio proyectado, no un proceso operativo todavía.** |
-| Contribuciones pendientes | **Plazo editorial previsto: 90 días desde el envío** si siguen pendientes. La depuración automática por antigüedad todavía no está desplegada. |
-| Contribuciones rechazadas | **Plazo editorial previsto: 30 días desde el rechazo**. La depuración automática todavía no está desplegada. |
-| Contribuciones aprobadas, aún no publicadas | **Plazo editorial previsto: hasta 12 meses desde la aprobación**. La depuración automática todavía no está desplegada. |
-| Contribuciones publicadas | El contenido puede conservarse durante la licencia de explotación vigente. Al eliminar una cuenta se desvinculan las propuestas de su autor; el tratamiento de firmas editoriales independientes aún necesita completarse. |
-| Notas de revisión editorial | Para propuestas publicadas, **30 días desde la publicación** como criterio previsto. Las notas de propuestas rechazadas se gestionarán conforme al plazo de estas. La rotación automática está pendiente. |
-| Avisos internos de aprobación, rechazo o caducidad | **30 días desde la generación**, una vez se habilite la función de notificaciones. Actualmente la consulta del estado puede realizarse en la Activity, pero no se garantiza el envío automático de avisos. |
-| Datos Premium | La eliminación de cuenta suprime los registros de acceso de Críptico Club; **no cancela los pagos gestionados por Discord**. Los registros legalmente exigibles podrían conservarse durante sus plazos obligatorios. |
-| Solicitudes de privacidad y soporte | Criterio de conservación de **hasta 12 meses desde el cierre**, salvo que exista obligación legal, reclamación o controversia que justifique un plazo distinto. |
-| Logs, métricas y trazas técnicas | **Objetivo de rotación: 30 días**, pendiente de verificar en el despliegue, almacenamiento y agregadores. |
-| Copias de seguridad | **Plan de una copia diaria**, con cifrado y rotación máxima de **30 días** dentro de la infraestructura prevista. Su implementación y restauración están pendientes de comprobación. Los datos borrados pueden persistir temporalmente en copias hasta su rotación. |
+| Categoría                                          | Tratamiento y conservación                                                                                                                                                                                                                                                                            |
+| -------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Cuenta, progresión y partidas                      | Se conservan mientras se necesita la cuenta para prestar el juego y se eliminan cuando el jugador utiliza el procedimiento autenticado de borrado, salvo obligaciones legales. **La eliminación automática tras 24 meses de inactividad es un criterio proyectado, no un proceso operativo todavía.** |
+| Contribuciones pendientes                          | **Plazo editorial previsto: 90 días desde el envío** si siguen pendientes. La depuración automática por antigüedad todavía no está desplegada.                                                                                                                                                        |
+| Contribuciones rechazadas                          | **Plazo editorial previsto: 30 días desde el rechazo**. La depuración automática todavía no está desplegada.                                                                                                                                                                                          |
+| Contribuciones aprobadas, aún no publicadas        | **Plazo editorial previsto: hasta 12 meses desde la aprobación**. La depuración automática todavía no está desplegada.                                                                                                                                                                                |
+| Contribuciones publicadas                          | El contenido puede conservarse durante la licencia de explotación vigente. Al eliminar una cuenta se desvinculan las propuestas de su autor; el tratamiento de firmas editoriales independientes aún necesita completarse.                                                                            |
+| Notas de revisión editorial                        | Para propuestas publicadas, **30 días desde la publicación** como criterio previsto. Las notas de propuestas rechazadas se gestionarán conforme al plazo de estas. La rotación automática está pendiente.                                                                                             |
+| Avisos internos de aprobación, rechazo o caducidad | **30 días desde la generación**, una vez se habilite la función de notificaciones. Actualmente la consulta del estado puede realizarse en la Activity, pero no se garantiza el envío automático de avisos.                                                                                            |
+| Datos Premium                                      | La eliminación de cuenta suprime los registros de acceso de Críptico Club; **no cancela los pagos gestionados por Discord**. Los registros legalmente exigibles podrían conservarse durante sus plazos obligatorios.                                                                                  |
+| Solicitudes de privacidad y soporte                | Criterio de conservación de **hasta 12 meses desde el cierre**, salvo que exista obligación legal, reclamación o controversia que justifique un plazo distinto.                                                                                                                                       |
+| Logs, métricas y trazas técnicas                   | **Objetivo de rotación: 30 días**, pendiente de verificar en el despliegue, almacenamiento y agregadores.                                                                                                                                                                                             |
+| Copias de seguridad                                | **Plan de una copia diaria**, con cifrado y rotación máxima de **30 días** dentro de la infraestructura prevista. Su implementación y restauración están pendientes de comprobación. Los datos borrados pueden persistir temporalmente en copias hasta su rotación.                                   |
 
 No afirmamos que un proceso de eliminación automática no desplegado esté funcionando. Los plazos previstos se convertirán en compromisos operativos tras implementar y probar los correspondientes mecanismos.
 

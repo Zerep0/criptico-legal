@@ -1,7 +1,5 @@
 # Críptico Club Terms of Service
 
-> **DRAFT FOR REVIEW.** This document is provided for review and translation. It does not replace verification of the provider's legal identification or actual service functionality before paid subscriptions are offered.
-
 **Review version:** October 28, 2026  
 **Service:** Críptico Club, a Discord Activity  
 **Language:** English · [Español](../../terminos/)  
@@ -11,7 +9,7 @@
 
 Críptico Club is operated by **Antonio Pérez Serrano**, an individual using the trading name **Zerep Games**, which does not constitute a separate legal entity.
 
-**Address supplied by the provider, subject to postal verification:** Calle Licenciado Cascales, 2 AC, 30260, Murcia, Spain. The address and postal code must be checked before this draft becomes a final contract.
+**Address supplied by the provider:** Calle Licenciado Cascales, 30260, Murcia, Spain.
 
 **Support, complaints and service-related requests:** **zerep.a.p.s@gmail.com**. Please use the subject line **“Support CripticoClub”** where possible.
 
