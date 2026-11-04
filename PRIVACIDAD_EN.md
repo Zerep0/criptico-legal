@@ -1,6 +1,6 @@
 # Críptico Club Privacy Policy
 
-**Review version:** October 28, 2026  
+**Last updated:** November 4, 2026 · **Version:** 2026-11-04-v2
 **Service:** Críptico Club — Discord Activity  
 **Language:** English · [Español](../../privacidad/)  
 **Terms of Service:** [Read](../terms/)
@@ -19,10 +19,10 @@ Discord handles information relating to its own platform under its own Privacy P
 
 - **Discord identity:** a stable Discord user ID, username, avatar and, when server access is verified, guild identifiers and membership status. We do not ask for your Discord password or read private messages.
 - **Gameplay:** selected language, daily challenges, wrong answers, hints used, revealed letters, scores, XP, streaks, history and statistics needed for global and server leaderboards.
-- **Premium access:** Discord SKU and entitlement identifiers, dates of validity, expiry, revocation and last verification. We do not collect full credit-card details.
-- **Contributions:** submitted clue text, answer, explanation, language, difficulty, public credit or anonymity choice, editorial status, submission and review dates, moderator notes and evidence of the license agreed. The author's public username may be saved as a fixed snapshot.
-- **Acceptance records:** account identifier, date and version of Terms accepted. Agreeing to publish a submitted work or authorize potential AI-related exploitation is distinct from granting any authorization needed to process personal data.
-- **Technical events:** random request IDs, HTTP route templates, method, status, processing times, aggregate metrics and errors. The API is designed to exclude tokens and Discord IDs from these records; the hosting proxy and third-party services may process IP addresses and other network metadata.
+- **Premium and subscriptions:** if Premium is purchased through Discord, the game processes Discord-provided SKU and entitlement identifiers, validity periods, revocation status and last verification time to grant or remove subscriber benefits. Discord handles payments; we do not receive full payment-card numbers.
+- **Contributions through Discord:** submissions are received through private tickets in the Discord server, managed by Tickets Tools. They may include Discord user ID/username, ticket messages and attachments, clue, answer, explanation, language, anonymity request, dates, decisions, review notes and evidence of express license acceptance. Published attribution may store a fixed username snapshot.
+- **Acceptance records:** account identifier, date and version of Terms accepted. Acceptance of in-Activity Terms is separate from express acceptance of the contribution license in a Discord ticket; neither replaces the legal basis needed to process personal data.
+- **Technical events:** API events (random request IDs, route, method, status, latency and errors) and operational Nginx logs on the Contabo VPS, which may contain IP addresses, dates, requests and connection metadata. Cloudflare may also process IP addresses and network metadata to deliver and protect the service. Application logs must not include tokens or credentials.
 
 The frontend's font files are self-hosted and do not require connections to Google Fonts.
 
@@ -31,7 +31,7 @@ The frontend's font files are self-hosted and do not require connections to Goog
 | Purpose                                                                                   | Proposed legal basis                                                                                                                           |
 | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | Discord authentication, daily gameplay, progress, profiles, leaderboards and history      | Performance of the requested service (GDPR Article 6(1)(b)).                                                                                   |
-| Recording acceptance of Terms and checking Premium access                                 | Contract performance and, when relevant, compliance with legal obligations (Articles 6(1)(b), 6(1)(c)).                                        |
+| Recording acceptance of the Terms of Service | Contract performance and, where applicable, compliance with legal obligations (GDPR Articles 6(1)(b) and 6(1)(c)). |
 | Receiving and reviewing voluntarily submitted puzzles, editorial attribution and licenses | Performance of contribution arrangements; applicable safeguards will be assessed for public attribution of user identifiers (Article 6(1)(b)). |
 | Service security, misuse prevention, troubleshooting and defense of legal claims          | Proportionate legitimate interests (Article 6(1)(f)).                                                                                          |
 | Required tax, accounting and lawful requests from public authorities                      | Compliance with legal obligations, where applicable (Article 6(1)(c)).                                                                         |
@@ -40,30 +40,33 @@ We do not use gameplay data for targeted advertising or send direct promotional 
 
 ## 4. Contributions and artificial intelligence
 
-Puzzle submission is voluntary. **Submitting a contribution requires accepting a license to use the submitted content**, including advance contractual permission for the **clue text** to be used for possible AI model training or improvement in the future, under the Terms of Service. Playing does not require submitting a puzzle.
+Puzzle submissions are voluntary and handled **through private tickets in the [official Discord server](https://discord.com/invite/5NccdaPNRM), not within the Activity**. Before a submission may be selected or published, the contributor must **expressly and verifiably accept the contribution license in the ticket**, including the potential future use of the **clue text** for AI model training or improvement if the required safeguards are met. Opening a ticket does not by itself constitute acceptance. Submissions are not required to play.
 
-**No user-submitted puzzles are currently used for AI model training.** OpenAI is the intended provider for future editorial assistance, but the integration has not yet been deployed. Inputs sent to OpenAI's API are not used by default to train models unless the API customer opts in.
+Ticket messages and attachments are processed through Discord and the Tickets Tools bot. Authorized moderation staff may review that material. The platform and ticket-bot provider may apply their own retention practices and terms; the actual settings and provider agreements must be checked. Users should avoid including other people's personal data in clues.
 
-If an external editorial provider is introduced, the plan is to send **only the clue text**, after reviewing and removing any personal data found in it. Discord IDs, usernames, avatars, answers, explanations and other account information are not intended to be transmitted. A user may inadvertently enter personal data in the clue itself; the clue **cannot be presumed anonymous without prior review**.
+**No user-submitted puzzles are currently used for AI model training.** OpenAI is the intended provider for future editorial assistance; the integration has not been deployed. OpenAI API customer inputs are not used for model training by default unless the customer opts in.
 
-Permission to exploit a copyrighted work does not replace the lawful basis required to process personal data contained in that work, or override GDPR rights. Before enabling external training in the future, applicable legal, contractual and technical conditions, rights and safeguards will be checked and this Policy will be updated where required.
+If an external editorial provider is introduced, we intend to send **only clue text** after reviewing and removing detectable personal data. Discord IDs, usernames, avatars, answers, explanations and account data are not intended to be transmitted. A clue **cannot be presumed anonymous without prior review**.
+
+Permission to exploit copyrighted material does not replace the legal basis required to process personal data included in it, or override GDPR rights. Before external training is enabled, the legal, contractual and technical compatibility, rights and safeguards will be checked and this Policy updated where needed.
 
 ## 5. Information visible to other players
 
-Leaderboards, scores and statistics may be displayed in association with a Discord username. Pending submissions and internal moderator notes are not public.
+Leaderboards and statistics may display Discord usernames. Conversations in the **public Discord workshop** are visible to people with access to that channel. Submissions intended for publication must go through a **private ticket**: access should be limited to the contributor, authorized moderators and necessary technical providers, depending on the actual permissions. Solutions for future daily puzzles should not be shared in the public workshop.
 
-Published puzzles show the **username that existed when the puzzle was submitted** by default, unless the contributor selected anonymity before submitting. This attribution is a snapshot, not an identity key; internal relations rely on the stable Discord ID. Changes to a user's Discord username do not automatically alter previous publication credits.
+Published puzzles display the **username recorded when the work was contributed** by default, unless anonymity was requested and agreed before editorial acceptance. That attribution is a fixed snapshot and does not update automatically when a Discord username changes.
 
-On account deletion, retained submissions are disconnected from the player's account and author identifiers are removed from the records covered by the implemented erasure process. Editorial versions already published with a separate author field may require additional handling. Copies previously shared on other platforms may remain in third-party archives, without prejudice to legally valid requests.
+**Deleting an Activity account does not erase Discord tickets or messages.** Removing identifiers, deleting tickets and unlinking retained editorial copies requires a separate request to support, subject to technical capabilities and legal obligations. Content previously shared on third-party platforms may remain there.
 
-An accepted submission's scheduled publication date is not disclosed in advance. Acceptance does not guarantee publication. When internal notifications are introduced, approval notices will state only that the submission was accepted, without specifying its publication date.
+Acceptance does not guarantee publication, and **scheduled publication dates are never disclosed in advance**. Replies may be communicated through the ticket while available; no in-Activity submission-status tracking or automatic notification is promised.
 
 ## 6. Service providers and recipients
 
-- **Discord:** login, verified server membership, Activity distribution, Premium purchases, billing and cancellation, under Discord's own terms.
-- **Hosting infrastructure:** planned **Kubernetes deployment in Spain** with PostgreSQL in the cluster. The technical administrator will have infrastructure duties; **access to personal data and credentials must be restricted through separate permissions**, subject to validation before launch.
-- **Cloudflare:** planned for **Tunnel, public proxy/access and protective services such as WAF**, according to features ultimately enabled. Cloudflare may process connection metadata that must be verified in the real configuration.
-- **Grafana:** technical metrics and monitoring dashboards. Grafana is planned as an observability tool, not for behavioural advertising analytics. Its hosting and access model must be verified.
+- **Discord:** authentication, server membership, Activity distribution, **Premium subscription and payment management**, and ticket messages, attachments and public workshop discussions. Discord processes its own data under its terms.
+- **Contabo:** the Fastify API and PostgreSQL database are deployed on a **Contabo VPS**, which also hosts Nginx and the game's static frontend files. Docker containers run on that VPS. The exact data-center location and appropriate Data Processing Agreement (DPA) must be checked and concluded as applicable; exclusive EU data residency is not assumed. Proposal tickets are handled separately through Discord.
+- **Tickets Tools:** third-party bot used to create and manage proposal tickets within the Discord server; access to, and retention of, messages, attachments and metadata must be reviewed against its actual settings and applicable policy.
+- **Cloudflare:** currently operates as the public proxy for `xzerep.es` and `criptico.xzerep.es`, with HTTPS at the edge and HTTPS to Nginx on Contabo. It may process IP addresses and connection metadata. Cloudflare Tunnel is not used in this deployment; other protections such as WAF will only be stated as active once verified.
+- **Grafana:** planned technical monitoring tool; a centralized observability platform has not yet been verified as running for this deployment.
 - **GitHub Pages:** publicly hosting these Terms and Privacy Policy. The service provider may process technical visitor information under its own terms.
 - **OpenAI:** intended provider, **not yet integrated**, for future editorial assistance as described in section 4.
 
@@ -71,7 +74,7 @@ Technical access by collaborators and providers will be limited to what is neede
 
 ## 7. International transfers
 
-Discord, GitHub, Cloudflare or other providers may be involved in processing outside the European Economic Area. Hosting PostgreSQL in Spain does not by itself guarantee that all access to personal data will remain in Spain.
+Discord, GitHub, Cloudflare or other providers may be involved in processing outside the European Economic Area. The Contabo data-center location and third-party processing must be verified; hosting PostgreSQL on a VPS does not guarantee that all processing stays in the European Economic Area, especially for submissions handled by Discord and ticket-bot providers.
 
 Before enabling integrations involving international transfers, we will assess the actual contracting entities, relevant countries, subprocessors and required safeguards, including adequacy decisions or contractual clauses where applicable. You may request information about active service providers by contacting the controller.
 
@@ -83,21 +86,21 @@ Before enabling integrations involving international transfers, we will assess t
 | Pending submissions                                 | **Planned editorial limit: 90 days from submission** if still pending. Automatic age-based cleanup is not yet deployed.                                                                                                                      |
 | Rejected submissions                                | **Planned editorial limit: 30 days after rejection**. Automatic cleanup is not yet deployed.                                                                                                                                                 |
 | Approved but unpublished submissions                | **Planned editorial limit: up to 12 months after acceptance**. Automatic cleanup is not yet deployed.                                                                                                                                        |
-| Published contributions                             | Content may be retained while a valid exploitation license remains in force. Account deletion disconnects proposal records from their author; separately stored published credits still require additional handling.                         |
+| Published contributions                             | Content may be retained during a valid license. In-game account deletion does not automatically remove Discord tickets or all editorial copies. |
 | Editorial review notes                              | For published submissions, a **planned period of 30 days after publication**. Notes of rejected proposals follow the relevant rejection retention rule. Automatic rotation is not yet deployed.                                              |
-| Internal approval, rejection and expiration notices | **30 days from notification**, once notifications become available. Users may currently consult proposal status, but automatic notices are not guaranteed.                                                                                   |
-| Premium data                                        | Deleting a Críptico Club account removes locally stored Premium-access records, but **does not cancel Discord's billing**. Records required by law may be retained for mandatory periods.                                                    |
+| Submission replies and messages                     | May remain in tickets while they exist. There are no in-Activity proposal notices; Discord and the bot apply their own message-retention systems. |
+| Premium entitlements and subscriptions | Discord-provided subscription access identifiers are retained as necessary to verify the entitlement, provide the service and meet applicable legal requirements. Discord administers billing under its own policies. |
 | Support and privacy requests                        | Target retention of **up to 12 months after closure**, unless legal duties or pending disputes justify a different retention period.                                                                                                         |
-| Technical logs, metrics and traces                  | **Target rotation: 30 days**, to be verified for production hosting and aggregation systems.                                                                                                                                                 |
+| Technical logs, metrics and traces                  | **Target retention: up to 30 days on systems under our control**, not yet implemented and verified; local size-based Docker log rotation does not itself ensure this time limit; proxy, host system and any aggregator retention policies require separate configuration and verification.                                                                                                                                                 |
 | Backups                                             | **Planned daily backups**, encrypted with a **maximum 30-day rotation** within the planned infrastructure. Deployment and restoration still need verification. Deleted data may remain temporarily in backups until their normal expiry.     |
 
-We do not claim that an undeployed automatic erasure process is already functioning. Planned retention periods will become operational commitments once implemented and verified.
+The editorial targets above apply to copies controlled by Críptico Club and **do not guarantee automatic deletion of Discord messages or data held by Tickets Tools**. Ticket deletion requests must be handled separately through support. We do not claim that an undeployed automatic erasure process is already functioning. Planned retention periods will become operational commitments once implemented and verified.
 
 ## 9. Account deletion and data-subject rights
 
-An authenticated **“Delete account and data”** option is available in **Profile → Settings**, subject to confirmation. It removes account records, gameplay history, XP, streaks, stored server membership, local Premium entitlements and acceptance records. **Previously submitted cryptic puzzles can remain in the moderation system without their account link or author credit.** Separately stored editorial credits in already published versions may require additional treatment.
+An authenticated **“Delete account and data”** option is available in **Profile → Settings**, subject to confirmation. It removes account records, gameplay history, XP, streaks, stored server membership and acceptance records. **Deleting a game profile does not automatically remove Discord tickets or messages or records retained by the ticket bot.** You may request their review or erasure through support. Editorial copies and attribution on previously published works may require additional handling.
 
-**Deleting Críptico Club data does not cancel a Discord Premium subscription.** Cancel the relevant subscription within Discord if you wish to stop future charges.
+Deleting a Críptico Club account **does not automatically cancel a Premium subscription purchased through Discord**: manage or cancel it separately in Discord. It also does not automatically remove Discord tickets or copies retained by third parties.
 
 Depending on applicable law, you may request access, rectification, erasure, restriction, objection or portability and withdraw consent where personal-data processing actually relies on consent. Contact **zerep.a.p.s@gmail.com**. We may proportionately verify your identity before responding.
 

@@ -1,4 +1,4 @@
-"""Generate bilingual legal-review pages from the four Markdown source documents."""
+"""Generate the public bilingual legal pages from the four Markdown source documents."""
 
 from __future__ import annotations
 
@@ -22,24 +22,11 @@ DOCUMENTS = (
 def page(title: str, body: str, language: str, relative_root: str) -> str:
     t = {
         "es": {
-            "notice": "DOCUMENTACIÓN EN REVISIÓN",
-            "message": (
-                "Esta es una vista previa pública de los documentos legales. "
-                "La dirección postal y varios procedimientos operativos requieren "
-                "comprobaciones antes de la aprobación definitiva. "
-                "No los utilices como condiciones contractuales de producción."
-            ),
             "terms": "Términos",
             "privacy": "Privacidad",
             "nav": "Documentos legales",
         },
         "en": {
-            "notice": "DOCUMENTS UNDER REVIEW",
-            "message": (
-                "This is a public preview of the legal documents. The postal address "
-                "and some operational processes require verification before final approval. "
-                "Do not use this draft as binding production terms."
-            ),
             "terms": "Terms",
             "privacy": "Privacy",
             "nav": "Legal documents",
@@ -73,7 +60,6 @@ def page(title: str, body: str, language: str, relative_root: str) -> str:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex, nofollow">
 <meta name="color-scheme" content="light">
 <title>{html.escape(title)} · Críptico Club</title>
 <link rel="stylesheet" href="{relative_root}styles.css">
@@ -88,10 +74,6 @@ def page(title: str, body: str, language: str, relative_root: str) -> str:
   </nav>
 </header>
 <main class="page">
-  <section class="warning" role="note">
-    <strong>{t['notice']}</strong>
-    <p>{t['message']}</p>
-  </section>
   <article class="document">{body}</article>
 </main>
 <footer>Críptico Club · <a href="https://github.com/Zerep0/criptico-legal">GitHub</a></footer>
@@ -119,9 +101,9 @@ def main() -> None:
     # The default landing page is English; Spanish is available at /es/.
     for lang, base in (("en", DEST), ("es", DEST / "es")):
         texts = {
-            "es": ("Documentación legal", "Lee los dos borradores antes de la aprobación definitiva.",
+            "es": ("Documentación legal", "Consulta las condiciones del servicio y la política de privacidad vigentes.",
                    "Condiciones del Servicio", "Política de Privacidad"),
-            "en": ("Legal documents", "Read both drafts before final approval.",
+            "en": ("Legal documents", "Read the current terms of service and privacy policy.",
                    "Terms of Service", "Privacy Policy"),
         }[lang]
         terms_href = "en/terms/" if lang == "en" else "../terminos/"
@@ -138,7 +120,7 @@ def main() -> None:
             page(texts[0], body, lang, "../" if lang == "es" else ""),
             encoding="utf-8",
         )
-    print(f"Built bilingual review site: {len(DOCUMENTS)} legal pages")
+    print(f"Built bilingual legal site: {len(DOCUMENTS)} legal pages")
 
 
 if __name__ == "__main__":

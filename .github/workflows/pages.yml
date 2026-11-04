@@ -1,4 +1,4 @@
-name: Publicar vista previa legal en GitHub Pages
+name: Publicar documentos legales en GitHub Pages
 
 on:
   push:
